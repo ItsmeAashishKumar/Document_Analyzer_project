@@ -1,0 +1,18 @@
+2025-06-01 19:31:38,332 - google.auth.compute_engine._metadata - WARNING - Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: timed out
+2025-06-01 19:31:42,350 - google.auth.compute_engine._metadata - WARNING - Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: timed out
+2025-06-01 19:31:47,191 - google.auth.compute_engine._metadata - WARNING - Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: timed out
+2025-06-01 19:31:47,191 - google.auth._default - WARNING - Authentication failed using Compute Engine authentication due to unavailable metadata server.
+2025-06-01 19:31:47,191 - app.core.logging - ERROR - LLM error: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+2025-06-01 19:31:47,201 - app.core.logging - ERROR - HTTP error: LLM processing error: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+2025-06-01 19:37:34,175 - app.core.logging - INFO - Found 2 PII instances in response, masking...
+2025-06-01 19:37:57,942 - app.core.logging - ERROR - HTTP error: Query requests sensitive information (e.g., SSN, phone number)
+2025-06-01 19:38:02,377 - app.core.logging - ERROR - HTTP error: Query requests sensitive information (e.g., SSN, phone number)
+2025-06-01 19:43:06,958 - app.core.logging - INFO - Found 2 PII instances in response, masking...
